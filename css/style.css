@@ -1,0 +1,389 @@
+
+            body{
+                background-color: rgb(255, 245, 245);
+                font-family: Arial, sans-serif;
+                padding: 0px auto;
+                margin: auto;
+                font-size: auto;
+            }
+
+            html{
+                scroll-behavior: smooth;
+            }
+
+            header{
+                padding: 1px auto;
+                position: fixed;
+                width: 100%;
+                background-color: hsl(0, 81%, 94%);
+            }
+
+            header nav ul{
+                list-style: none;
+                text-align: center;
+            }
+
+            header nav ul li {
+                display: inline;
+            }
+
+            header nav ul li a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color:black;
+                font-family: arial;
+                font-size: 20px;
+                padding: 2px 10px;
+                display: incline-block;
+            }
+
+            header nav ul li a:hover{
+                color:rgb(255, 0, 0); 
+            }
+    
+            .nav-itens a{
+                text-decoration: none;
+                color: aliceblue;
+                font-weight: 600;    
+            } 
+            
+            nav.-itens.active a{
+                color: antiquewhite;
+                border-bottom: 3px solid black;
+            }
+
+            .menu-toggle:focus {
+                outline: none; /* Remove a borda de foco */
+            }
+    
+            .menu-toggle {
+                display: block; /* Exibe o ícone do menu hamburguer apenas na versão móvel */
+                position: absolute; /* Posiciona o botão hamburger */
+                top: 20px;
+                right: 20px;
+                background: none;
+                border: none;
+                color: #000000;
+                font-size: 20px;
+                cursor: pointer;
+                z-index: 999; /* Garante que o botão hamburger esteja acima de outros elementos */
+            }
+    
+                #nav_lista,
+                #navbar .btn-default{
+                    display: none;
+                }
+/* titulo   ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+            .titulo{
+                text-align: center;
+                background-color: hsl(0, 81%, 94%);
+                height: 40px;
+                width: 300px;
+                justify-content: center;
+                border-radius: 15px;
+                padding: 1px auto;
+                margin: 1px auto;
+            } 
+
+            
+            .titulo02{
+                text-align: center;
+                background-color: hsl(0, 81%, 94%);
+                height: 35px;
+                width: 350px;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                border-radius: 15px;
+            } 
+
+            .titulo03{
+                text-align: center;
+                background-color: hsl(0, 81%, 94%);
+                height: 35px;
+                width: 400px;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                border-radius: 15px;
+            } 
+
+            .titulo04{
+                text-align: center;               
+                height: 40px;
+                width: 240px;
+                display: flex;
+                justify-content: center;
+                border-radius: 15px;
+                background-color: hsl(0, 81%, 94%);
+            } 
+
+            .titulo05{
+                text-align: center;               
+                height: 35px;
+                width: 240px;
+                display: block;
+                justify-content: center;
+                border-radius: 15px;
+                background-color: hsl(0, 81%, 94%);
+            } 
+
+            .titulo06{
+                text-align: center;               
+                height: 35px;
+                width: 240px;
+                display: flex;
+                justify-content: center;
+                border-radius: 15px;
+                background-color: hsl(0, 81%, 94%);
+            } 
+
+            .titulo07{
+                text-align: center;               
+                height: 35px;
+                width: 300px;
+                display: flex;
+                justify-content: center;
+                border-radius: 15px;
+                background-color: hsl(0, 81%, 94%);
+            } 
+
+            .titulo08{
+                text-align: center;               
+                height: 35px;
+                width: 200px;
+                display: flex;
+                justify-content: center;
+                border-radius: 15px;
+                background-color: hsl(0, 81%, 94%);
+            } 
+
+
+            .paragrafo{
+                text-align: center;
+                display: block;
+                justify-content: center;
+                padding: 20px;
+                font-size: 20px;   
+
+            }
+
+            .paragrafo02{
+                text-align: center;
+                display: block;
+                justify-content: center;
+                padding: 10px;
+                font-size: 20px;   
+                margin: 0px auto;
+            }
+
+            .paragrafo03{
+                text-align: center;
+                display: block;
+                justify-content: center;
+                padding: 10px;
+                font-size: 17px;   
+            }
+
+            .paragrafo04{
+                text-align: center;
+                display: block;
+                justify-content: center;
+                padding: 10px;
+                font-size: 17px;   
+            }
+
+            .paragrafo05{
+                text-align: center;
+                display: center;
+                justify-content: center;
+                padding: 10px;
+                font-size: 17px; 
+                
+
+            }
+
+            .paragrafo06{
+                text-align: center;
+                display: center;
+                justify-content: center;
+                padding: 10px;
+                font-size: 17px; 
+                margin: 10px,   
+            }
+           
+
+        /* pagina cadastro contato -------------------------------------------------------*/
+        
+        .contato{
+            width: 500px;
+            margin: 50px auto;
+            background-color: rgb(255, 230, 230);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 1px 1px solid rgb(0, 0, 0);
+        }
+
+        input[type="nome"],
+        input[type="email"],
+        textarea {
+            width: 470px;
+            height: 15px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="observacao"],
+        textarea {
+            width: 470px;
+            height: 65px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            justify-items: center;
+            display: flex;
+        }
+
+        input[type="submit"]:hover {
+        background-color: rgb(30, 218, 40);
+        }
+
+/* pagina cadastro login --------------------------------------------------------------*/
+
+
+        .login{
+            width: 500px;
+            height: 260px;
+            margin: 50px auto;
+            background-color: rgb(255, 230, 230);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 1px 1px solid rgb(0, 0, 0);
+            
+            
+        }
+
+        .h1{
+            text-align: center;
+            padding: 1px auto;
+        }
+        input[type="text"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="password"],
+        textarea {
+            width: 470px;
+            height: 15px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="observacao"],
+        textarea {
+            width: 470px;
+            height: 65px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            justify-items: center;
+            display: flex;
+        }
+
+        input[type="submit"]:hover {
+        background-color: rgb(30, 218, 40);
+        }
+
+       
+        .btnCadastrar:hover{
+            background-color: rgb(30, 218, 40);
+        }
+
+
+/* pagina cadastro cadastro --------------------------------------------------------------*/
+        .cadastro{
+            margin: 420px;
+        }
+        
+
+
+        .cadastrar{
+            width: 500px;
+            height: 690px;
+            margin: 50px auto;
+            background-color: rgb(255, 230, 230);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 1px 1px solid rgb(0, 0, 0);
+             
+        }
+
+        .h1{
+            text-align: center;
+            padding: 1px auto;
+        }
+        input[type="text"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="password"],
+        textarea {
+            width: 470px;
+            height: 15px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="observacao"],
+        textarea {
+            width: 470px;
+            height: 65px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            justify-items: center;
+            display: flex;
+        }
+
+        input[type="submit"]:hover {
+        background-color: rgb(30, 218, 40);
+        }
+       
+            
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contatos</title>
+        
+        <link rel="shortcut icon" href="images/adventure..jpg" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/media-query.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    </head>
+    
+    <body>
+     
+        
+        <header>
+			<button class="menu-toggle">&#9776;</button>	
+			<nav>
+				<ul>
+					<li> <a href="index.html"> home </a></li>
+					<li> <a href="quem_somos.html">Quem Somos</a></li>
+					<li> <a href="valores.html"> Valores </a> </li>
+					<li> <a href="contatos.html">Contatos</a></li>
+					<li> <a href="login.html"> Login  </a> </li>
+				</ul>
+			</nav>
+		</header>
+        
+        <br>
+        <br>
+        <br>
+
+        <center>
+		<!-- texto sobre contato -->		
+             <!-- titulo da pagina -->	
+            <h2 style="color:purple;" class="titulo08">
+                    Contatos
+            </h2>
+		</center>	
+			<br>
+			<br>
+
+
+		<div class="paragrafo06">
+			<LI>
+				10º melhor Parque de Diversões do Brasil segundo o site www.tripadvisor.com 
+				Tem alguma sugestão ou dúvida?
+				<br>
+		   </LI> 			
+		
+		<br>
+		<br>	
+			<!-- subtitulo da pagina -->		
+			<h5 style="color:red;">
+				HORÁRIO DE ATENDIMENTO
+			</h5>
+		<br>
+		<!-- paragrafo -->	
+		<p>
+			Segunda a Sexta das 09h às 17h. Em dúvida ligar para (31) 7070-7070 - <img src="images/Instagram_icon.png.webp" height="15" width="15"/> 
+			<a href="https://www.instagram.com/parqueadventure_land?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> Instragam </a>  <br>
+		<br>
+
+			R. Padre Pedro Pinto, 15 - Venda Nova, Belo Horizonte - Minas Gerais, 31310-040, Brasil. 
+		</p> 
+		
+		<br>
+		</div>	
+		
+		
+		<div class="contato">
+			<form action="#" method="GET">
+				<label for="nome">Nome</label><br>
+				<input type="nome" id="nome" name="nome" required minlength="3" maxlength="50" placeholder="Digite seu nome"><br>
+				<br>
+
+				<label for="email">E-mail</label><br>
+				<input type="email" id="email" name="email" required placeholder="Digite seu e-mail"> <br>
+				<br>
+				
+				<label for="observacoes">Assunto</label><br>
+				<textarea type="observacao" id="observacoes" name="observacoes" rows="4" cols="50" placeholder="Digite o assunto" ></textarea><br>
+
+				<input type="submit" value="Enviar">
+							
+				</form>			
+		</div>	
+		
+		<script>
+			$(document).ready(function(){
+			// Captura o clique no botão de alternância de menu
+				$('.menu-toggle').click(function(){
+				// Alterna a visibilidade do menu
+				$('nav ul').slideToggle();
+			});
+				
+			// Esconde o menu ao redimensionar a janela para desktop
+			$(window).resize(function(){
+				if($(window).width() > 767) {
+				$('nav ul').removeAttr('style');
+				}
+				});
+			});		
+		</script>	
+
+					
+					
+    </body>
+</html>

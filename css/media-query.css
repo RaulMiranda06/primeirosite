@@ -1,0 +1,285 @@
+
+@media (max-width: 1000px) {
+    header{
+        padding: 5px 0px;
+        position: fixed;
+        max-width: 100%;
+        background-color: hsl(0, 81%, 94%);
+
+    }
+
+    header nav ul{
+        list-style: none;
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: inline;
+    }
+
+    header nav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color:black;
+        font-family: arial;
+        font-size: 14px;
+        padding: 1px;
+        display: incline-block;
+    }
+
+    header nav ul li a:hover{
+        color:rgb(255, 0, 0); 
+    }
+
+    .nav-itens a{
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 600;    
+    } 
+    
+    nav.-itens.active a{
+        color: antiquewhite;
+        border-bottom: 5px solid black;
+    }
+
+    header nav ul li a:hover{
+        color:rgb(255, 0, 0); 
+    }
+
+    .menu-toggle:focus {
+        outline: none; /* Remove a borda de foco */
+    }
+
+    .menu-toggle {
+        display: block; /* Exibe o ícone do menu hamburguer apenas na versão móvel */
+        position: absolute; /* Posiciona o botão hamburger */
+        top: 20px;
+        right: 20px;
+        background: none;
+        border: none;
+        color: #000000;
+        font-size: 15px;
+        cursor: pointer;
+        z-index: 999; /* Garante que o botão hamburger esteja acima de outros elementos */
+    }
+
+        #nav_lista,
+        #navbar .btn-default{
+            display: none;
+        }
+
+        .paragrafo02{
+            text-align: left;
+            display: block;
+            justify-content: center;
+            padding: 10px;
+            font-size: 15px;   
+            margin: 0px auto;
+        }
+
+        .titulo04{
+            text-align: center;               
+            height: 40px;
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            border-radius: 15px;
+            background-color: hsl(0, 81%, 94%);
+            margin: auto;
+        } 
+
+        .titulo05{
+            text-align: center;               
+            height: 35px;
+            width: 240px;
+            display: block;
+            justify-content: center;
+            border-radius: 15px;
+            background-color: hsl(0, 81%, 94%);
+        } 
+
+        .titulo06{
+            text-align: center;               
+            height: 35px;
+            width: 240px;
+            display: flex;
+            justify-content: center;
+            border-radius: 15px;
+            background-color: hsl(0, 81%, 94%);
+        } 
+
+        .titulo07{
+            text-align: center;               
+            height: 35px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            border-radius: 15px;
+            background-color: hsl(0, 81%, 94%);
+            font-size: 20px;
+        } 
+
+        img{
+            max-width: 100%;
+        }
+
+
+        .contato{
+            max-width: 400px;
+            margin: 50px auto;
+            background-color: rgb(255, 230, 230);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 1px 1px solid rgb(0, 0, 0);
+        }
+
+        input[type="nome"],
+        input[type="email"],
+        textarea {
+            max-width: 370px;
+            height: 15px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="observacao"],
+        textarea {
+            max-width: 370px;
+            height: 65px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            justify-items: center;
+            display: flex;
+        }
+
+        input[type="submit"]:hover {
+        background-color: rgb(30, 218, 40);
+        }
+        
+        .login{
+            width: 400px;
+            height: 270px;
+            margin: 50px auto;
+            background-color: rgb(255, 230, 230);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 1px 1px solid rgb(0, 0, 0);
+            
+        }
+
+        .h1{
+            text-align: center;
+            padding: 1px auto;
+        }
+        input[type="text"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="password"],
+        textarea {
+            max-width: 370px;
+            height: 15px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="observacao"],
+        textarea {
+            width: 470px;
+            height: 65px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            justify-items: center;
+            display: flex;
+        }
+
+       
+
+/* pagina cadastro cadastro --------------------------------------------------------------*/
+        .cadastro{
+            margin: 320px;
+        }
+        
+    }
+
+
+    .cadastrar{
+        width: 400px;
+        height: 690px;
+        margin: 50px auto;
+        background-color: rgb(255, 230, 230);
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 1px 1px solid rgb(0, 0, 0);
+         
+    }
+
+    .h1{
+        text-align: center;
+        padding: 1px auto;
+    }
+    input[type="text"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="password"],
+    textarea {
+        width: 470px;
+        height: 15px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    input[type="observacao"],
+    textarea {
+        width: 470px;
+        height: 65px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        justify-items: center;
+        display: flex;
+    }
+
+    input[type="submit"]:hover {
+    background-color: rgb(30, 218, 40);
+    }
+
+        
+        

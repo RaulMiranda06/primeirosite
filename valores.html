@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Valores do ingressos </title>
+        <link rel="shortcut icon" href="images/adventure..jpg" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media-query.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    </head>
+   
+    <body>
+             
+        <header>
+            <button class="menu-toggle">&#9776;</button>
+			<nav>
+				<ul>
+					<li> <a href="index.html"> home </a></li>
+					<li> <a href="quem_somos.html">Quem Somos</a></li>
+					<li> <a href="valores.html"> Valores </a> </li>
+                    <li> <a href="contatos.html">Contatos</a></li>
+					<li> <a href="login.html"> Login  </a> </li>
+				</ul>
+			</nav>
+		</header>
+		
+        <br>
+        <br>
+        <br>        		
+        <br>
+        <br>
+
+        <center>
+            <h2 style="color:purple" class="titulo05">  
+                COMO BRINCAR  ? 
+            </h2> 
+        </center>
+         
+        <center>
+            <div class="paragrafo03">
+                <li>
+                    1º- Por R$ 2,50 você compra o cartão eletrônico do parque(DIVERCARD).    
+                </li>        
+                
+                <br>
+                
+                <li>
+                    2º- Então, carrega seu DIVERCARD com valores em Reais.   
+                </li>
+                
+                <br>
+                
+                <li>
+                    3º- Aí, é só escolher a atração e usar o seu DIVERCARD para se divertir!  
+                </li>
+                            
+                <br>
+            </div>    
+
+                 <h5 style="color:black">
+                    MÉDIA DE VALORES DAS ATRAÇÕES: R$ 7,50         
+                </h5>
+                                    
+                <br>
+                
+                <p>
+                    O saldo que sobrar no Divercard você pode utilizar na próxima visita ao parque ou pode resgatar este saldo e o valor do cartão também.      
+                </p>
+                
+                <br>
+                
+                <h5 style="color:rgb(255, 0, 0)"> TODAS AS INFORMAÇÕES DE USO DAS ATRAÇÕES SE ENCONTRAM EM PLACAS INFORMATIVAS DIANTE DE CADA BRINQUEDO. </h5>
+                <br>
+        </center>
+        
+        <center> 
+            <h2 style="color:purple" class="titulo06">   
+                PROMOÇÃO VIP 
+            </h2> 
+
+            <p class="paragrafo04"> GUARDE BEM SEU DIVERCARD PARA APROVEITAR AS VANTAGENS! <br>
+                <br> Após UTILIZAR R$ 50,00 dos seus créditos, <br>   
+                <br> seu cartão passa a ser VIP automaticamente <br>
+                <br> e dar DESCONTOS em todos os brinquedos, <br>
+                para sempre! 
+            </p>
+
+            <img src="images/vip.png" heigth="220px" width="220px"/>
+        </center>
+       
+        <br>
+        <br>
+
+        <center>
+            <h2 style="color:purple" class="titulo07"> 
+                ACESSO AO PARQUE     
+            </h2>   
+        </center>
+            
+
+        <br>
+        <div class="paragrafo05">
+            <li>
+                DIAS ÚTEIS: A ENTRADA É FRANCA.  
+            </li>
+            
+            <br>
+
+            <li>
+                AOS SÁBADOS, DOMINGOS E FERIADOS:  R$ 4,00 por pessoa   
+            </li>
+
+            <br>
+
+            <li style="color:blue">
+                NÃO PAGAM ACESSO: 
+            </li>
+            
+            <br>
+
+            <li>
+                CRIANÇAS ABAIXO DE 1,50m.
+            </li>
+
+            <br>
+
+            <li>
+                PESSOAS COM DEFICIÊNCIA, assim como seu acompanhante adulto.
+            </li>
+
+            <br>
+
+            <li>
+                PESSOAS ACIMA DE 60 ANOS.
+            </li>
+
+        </div>    
+        
+        <script>
+            $(document).ready(function(){
+            // Captura o clique no botão de alternância de menu
+                $('.menu-toggle').click(function(){
+                // Alterna a visibilidade do menu
+                $('nav ul').slideToggle();
+            });
+                
+            // Esconde o menu ao redimensionar a janela para desktop
+            $(window).resize(function(){
+                if($(window).width() > 767) {
+                $('nav ul').removeAttr('style');
+                }
+                });
+            });		
+        </script>	    
+    
+</body>
+
+</html>

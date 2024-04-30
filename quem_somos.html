@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Quem Somos</title>        
+        <link rel="shortcut icon" href="images/adventure..jpg" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media-query.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    </head>
+    
+    <body>
+
+
+        <header>
+            <button class="menu-toggle">&#9776;</button>
+			<nav>
+				<ul>
+					<li> <a href="index.html"> home </a> </li>
+					<li> <a href="quem_somos.html">Quem Somos</a> </li>
+					<li> <a href="valores.html"> Valores </a> </li>
+                    <li> <a href="contatos.html">Contatos</a> </li>
+					<li> <a href="login.html"> Login  </a> </li>
+				</ul>
+			</nav>
+		</header>	
+        	<!-- texto sobre quem somos  -->			
+				
+		<!-- titulo da pagina -->	
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>        
+            <h1 style="color: purple;" class="titulo04"> 
+                Quem Somos	
+            </h1>
+        </center>
+
+        <br>
+        <br>
+					
+        <center>
+            <!-- subtitulo da pagina -->	
+				<h3 style="color:red;"> 
+					Conheça a história do tradicional Parque AdventureLand de BH 
+				</h3>    
+					
+				<br>
+			
+                <!-- paragrafo -->	
+            	<p> 
+					Parque AdventureLand, em Venda Nova, nasceu em 1951, no espírito santo, <br>
+					a partir da vontade de criar e projetar brinquedos. ao filho, <br>
+					fundador pediu que fosse o guardião da memória do lugar. <br>
+                </p>   
+								
+				<br>
+
+        </center>
+		
+        <br>
+				
+        <center>
+        <!-- table para centralizar as img  -->		
+            <table>
+                <tr>
+                    <td>
+                        <img src="images/6s82f8zm.png" height="180px" widht="180px">
+                        <center>
+                            <h3 style="color:rgb(0, 0, 0)"> 1967 </h3>
+                        </center>
+                    </td>         
+                    
+                    <td>
+                        <img src="images/5hapubn3.png" height="180px" widht="180px">
+                        <center>
+                            <h3 style="color:rgb(0, 0, 0)"> 2003 </h3>
+                        </center>
+                    </td>		
+                </tr>
+            </table>
+        </center>
+       
+        <script>
+            $(document).ready(function(){
+            // Captura o clique no botão de alternância de menu
+                $('.menu-toggle').click(function(){
+                // Alterna a visibilidade do menu
+                $('nav ul').slideToggle();
+            });
+                
+            // Esconde o menu ao redimensionar a janela para desktop
+            $(window).resize(function(){
+                if($(window).width() > 767) {
+                $('nav ul').removeAttr('style');
+                }
+                });
+            });		
+        </script>	
+
+
+    </body>
+</html>

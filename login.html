@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link rel="shortcut icon" href="images/adventure..jpg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media-query.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    </head>
+    
+    <body>
+        
+        <header>
+			<nav>
+				<ul>
+					<li> <a href="index.html"> home </a></li>
+					<li> <a href="quem_somos.html">Quem Somos</a></li>
+					<li> <a href="contatos.html">Contatos</a></li>
+					<li> <a href="valores.html"> Valores </a> </li>
+					<li> <a href="login.html"> Login  </a> </li>
+				</ul>
+			</nav>
+		</header>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="titulo">
+            <h1 style="color:purple"> AdventureLand </h1> 
+        </div>	
+        
+        
+ 
+        <div class="login">
+            <h2 class="h1"> Login </h2>
+            <form action="#" method="get">
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail"> <br> 
+                
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" required minlength="8" required placeholder="Digite uma senha "> <br>
+
+                <br>
+
+                <input type="submit" value="Logar" >
+              
+                <a class="cadastro" href="cadastro.html"> cadastrar </a>
+
+            </form>
+        </div>
+        
+        <script>
+            $(document).ready(function(){
+            // Captura o clique no botão de alternância de menu
+                $('.menu-toggle').click(function(){
+                // Alterna a visibilidade do menu
+                $('nav ul').slideToggle();
+            });
+                
+            // Esconde o menu ao redimensionar a janela para desktop
+            $(window).resize(function(){
+                if($(window).width() > 767) {
+                $('nav ul').removeAttr('style');
+                }
+                });
+            });		
+        </script>
+
+    </body>
+</html>
