@@ -2,12 +2,25 @@
 <html>
 
 	<head>
-		
 		<title> Olá AdventureLand </title> 
 		<link rel="shortcut icon" href="images/adventure..jpg" type="image/x-icon">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/media-query.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		
+		<style>
+			body{
+                background-color: rgb(255, 245, 245);
+                font-family: Arial, sans-serif;
+            }
+
+		</style>
+
 	</head>
 
 	<body>
@@ -24,6 +37,8 @@
 			</nav>
 		</header>	
 
+		
+
 		<br>
 		<br>
 		<br>
@@ -39,9 +54,18 @@
 		
 		<center>
 			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			<div class="paragrafo">
 			<!-- lista não ordenada -->		
-				<li>
+			<li>
 					O AdventureLand oferece mais de 30 atrações únicas e  com muita diversão.
 				</li>
 							
@@ -80,8 +104,9 @@
 				<li>
 					E para animar a turma toda, uma boa dica é   uma  corridinha  no Autopista.
 				</li>
-						
+					
 			</div>
+		    
 		</center>	
 		<br>
 		<br>
@@ -97,79 +122,47 @@
 			
 			<center>
 				<!-- table para centralizar as img -->		
-				<table>  
-					<tr >
-						<td>	
-								<img src="images/passeio-de-lazer-parque-de-diversoes-da-familia.jpg" height="150px" widht="150px"/> 	
-								<center>
-									<h5 style="color:rgb(0, 0, 0)"> Montanha Russa </h5>
-								</center>	
-						</td>
-						
-						<td>			
-							<img src="images/319026098_8656007754424442_708946724458615966_n-e1670536199776.webp" height="150px" widht="150px"/> 
-							<center>	
-								<h5 style="color:rgb(0, 0, 0)"> Roda Gigante </h5>
-							</center>			
-							
-						</td>	
-						
-					</tr>
-				</table>						
+			
+				<div id="demo" class="carousel slide" data-ride="carousel">
 
-				<br>
-
-				<table>
-					<tr>
-						<td>				
-							<img src="images/roller-coaster-seats-amusement-park.jpg" height="150px" widht="150px"/>
-							<center>
-								<h5 style="color:rgb(0, 0, 0)"> Sky Fall </h5>
-							</center>
-						</td>
-
-						<td>
-							<img src="images/minhocao.webp" height="150px" widht="150px"/>
-							<center>
-								<h5 style="color:rgb(0, 0, 0)"> Minhoca </h5>
-							</center>
-						</td>
-					</tr>
-				</table>										
-			</center>
+					<!-- Indicators -->
+					<ul class="carousel-indicators">
+					  <li data-target="#demo" data-slide-to="0" class="active"></li>
+					  <li data-target="#demo" data-slide-to="1"></li>
+					  <li data-target="#demo" data-slide-to="2"></li>
+					  <li data-target="#demo" data-slide-to="3"></li>
+					</ul>
+				  
+					<!-- The slideshow -->
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img class="rounded, img-fluid" src="images/passeio-de-lazer-parque-de-diversoes-da-familia.jpg" height="500px" width="600px" alt="Montanha Russa">
+					  </div>
+					  <div class="carousel-item">
+						<img class="rounded, img-fluid" src="images/319026098_8656007754424442_708946724458615966_n-e1670536199776.webp"  height="500px" width="600px" alt="Roda Gigante">
+					  </div>
+					  <div class="carousel-item">
+						<img class="rounded, img-fluid" src="images/roller-coaster-seats-amusement-park.jpg" height="500px" width="600px" alt="Sky Fall">
+					  </div>
+					  <div class="carousel-item">
+						<img class="rounded, img-fluid" src="images/minhocao.webp" height="500px" width="600px" alt="Minhoca">
+					  </div>
+					</div>
+				  
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					  <span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+					  <span class="carousel-control-next-icon"></span>
+					</a>
+				  
+				  </div>
 			
 			<br>
 			<br>
 	
-			<!-- titulo da pagina -->	
-			<h2 style="color:purple" class="titulo03"> 
-				 Informamos Que Não É Permitido 
-			</h2>
-
-			<br>
 			
-				<!-- paragrafo -->	
-				<p style="color: rgb(0, 0, 0);" class="paragrafo02">
-					<br> . A entrada ou saída de crianças desacompanhadas de responsável adulto. <br>
-					<br> . Mantenha as crianças próximas. <br>
-					<br> . Entrar com bicicleta, mobilete e motorizadas em geral. <br>
-					<br> . Utilizar patins, skate, patinete, bicicleta, mobilete e motorizadas em geral. <br>
-					<br> . Entrada ou permanência sem camisa, com camisa aberta, roupa de banho, ou quaisquer vestimentas inadequadas ao ambiente familiar. <br>
-					<br> . Recolher latinhas ou qualquer outro material. <br>
-					<br> . A entrada ou permanência com alimentos ou bebidas em qualquer recipiente vidros, caixa de isopor, sacolas ou bolsas. <br>
-					<br> . A entrada ou permanência de ambulantes ou comércio de produtos, sem autorização, pedir qualquer tipo de ajuda financeira ou doações para os visitantes. <br>
-					<br> . A entrada ou permanência com capacete, máscara ou quaisquer acessórios que cubram o rosto. <br>
-					<br> . A entrada ou permanência de fogos de artifícios, armas brancas ou armas de fogo. <br>
-					<br> . A entrada ou permanência com animais qualquer espécie e tamanho, exceto cão guia. <br>
-					<br> . Fumar em ambientes fechados ou em ambientes que estejam sinalizados com o símbolo "proibido fumar". <br> 
-					<br> . Para uso de fantasias, atividades de fotografias e/ou filmagens profissionais, distribuição de brindes e panfletos ou qualquer tipo de divulgação (merchandising), somente com autorização. <br>
-					<br> . O Parque se reserva no direito de restringir o acesso ou retirar de suas dependências qualquer pessoas com atitudes ou comportamentos inadequados ao ambiente familiar ou em caso de descumprimento das recomendações do Parque. 
-					<br>
-					<br> . Por medida de segurança, os aparelhos e atrações estão sujeitos a paradas devido à manutenção ou condições climáticas. <br>
-					<br> . O Parque se reserva o direito de alterar os horários de abertura ou fechamento sem aviso prévio em caso de chuva ou por motivo de força maior. <br>
-				</p>	
-
-				<br>		
 	
 	<script>
 		$(document).ready(function(){
