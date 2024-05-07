@@ -5,10 +5,11 @@
             }
 
             header{
-                padding: 1px;
+                padding: 1px auto;
                 position: fixed;
                 width: 100%;
-                background-color: hsl(0, 81%, 94%);
+                background-color: hsl(225, 93%, 84%);
+                height: 35px;
             }
 
             header nav ul{
@@ -26,7 +27,7 @@
                 color:black;
                 font-family: arial;
                 font-size: 20px;
-                padding: 1px;
+                padding: 20px;
                 display: incline-block;
             }
 
@@ -42,7 +43,7 @@
             
             nav.-itens.active a{
                 color: antiquewhite;
-                border-bottom: 2px solid black;
+                border-bottom: 5px solid black;
             }
 
             .menu-toggle:focus {
@@ -52,7 +53,7 @@
             .menu-toggle {
                 display: block; /* Exibe o ícone do menu hamburguer apenas na versão móvel */
                 position: absolute; /* Posiciona o botão hamburger */
-                top: 10px;
+                top: 5px;
                 right: 20px;
                 background: none;
                 border: none;
@@ -68,34 +69,11 @@
                 }
 /* titulo   ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-            .titulo{
-                text-align: center;
-                background-color: hsl(0, 81%, 94%);
-                height: 45px;
-                width: 300px;
-                justify-content: center;
-                border-radius: 10px;
-                padding: 1px auto;
-                margin: 1px auto;
-            } 
-
             
             .titulo02{
                 text-align: center;
-                background-color: hsl(0, 81%, 94%);
                 height: 35px;
                 width: 450px;
-                margin: auto;
-                display: flex;
-                justify-content: center;
-                border-radius: 15px;
-            } 
-
-            .titulo03{
-                text-align: center;
-                background-color: hsl(0, 81%, 94%);
-                height: 35px;
-                width: 400px;
                 margin: auto;
                 display: flex;
                 justify-content: center;
@@ -142,24 +120,15 @@
                 background-color: hsl(0, 81%, 94%);
             } 
 
-            .titulo08{
-                text-align: center;               
-                height: 35px;
-                width: 200px;
-                display: flex;
-                justify-content: center;
-                border-radius: 15px;
-                background-color: hsl(0, 81%, 94%);
-            } 
-
-
             .paragrafo{
                 text-align: center;
-                display: block;
+                padding: 0px auto;
                 justify-content: center;
-                padding: 20px;
-                font-size: 20px;   
-
+                font-size: 20px;
+                background-color: aliceblue;
+                width: 600px; 
+                border-radius: 10px; 
+                
             }
 
             .paragrafo02{
@@ -173,19 +142,15 @@
 
             .paragrafo03{
                 text-align: center;
-                display: block;
+                padding: 0px auto;
                 justify-content: center;
-                padding: 10px;
-                font-size: 17px;   
+                font-size: 20px;
+                background-color: aliceblue;
+                width: 1350px; 
+                border-radius: 10px;
+                height: 1315px; 
             }
 
-            .paragrafo04{
-                text-align: center;
-                display: block;
-                justify-content: center;
-                padding: 10px;
-                font-size: 17px;   
-            }
 
             .paragrafo05{
                 text-align: center;
@@ -212,7 +177,7 @@
         .contato{
             width: 500px;
             margin: 50px auto;
-            background-color: rgb(255, 230, 230);
+            background-color: rgb(224, 238, 250);
             padding: 20px;
             border-radius: 20px;
             box-shadow: 0px 0px 1px 1px solid rgb(0, 0, 0);
@@ -222,8 +187,8 @@
         input[type="email"],
         textarea {
             width: 470px;
-            height: 15px;
-            padding: 10px;
+            height: 40px;
+            padding: 1px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -258,10 +223,10 @@
 
 
         .login{
-            width: 500px;
-            height: 260px;
+            width: 520px;
+            height: 350px;
             margin: 50px auto;
-            background-color: rgb(255, 230, 230);
+            background-color: rgb(224, 238, 250);
             padding: 20px;
             border-radius: 20px;
             box-shadow: 0px 0px 1px 1px solid rgb(0, 0, 0);
@@ -274,26 +239,17 @@
             padding: 1px auto;
         }
         input[type="text"],
+        input[type="password"],
         input[type="tel"],
         input[type="date"],
-        input[type="password"],
         textarea {
             width: 470px;
-            height: 15px;
-            padding: 10px;
+            height: 40px;
+            padding: 1px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
-        }
-        input[type="observacao"],
-        textarea {
-            width: 470px;
-            height: 65px;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+        }  
 
         input[type="submit"] {
             background-color: #4CAF50;
@@ -322,43 +278,15 @@
             margin: 420px;
         }
         
-
-
         .cadastrar{
-            width: 500px;
-            height: 690px;
+            width: 525px;
+            height: 900px;
             margin: 50px auto;
-            background-color: rgb(255, 230, 230);
-    
+            background-color: rgb(224, 238, 250);
+            padding: 20px;
             border-radius: 20px;
             box-shadow: 0px 0px 1px 1px solid rgb(0, 0, 0);
-             
-        }
-
-        .h1{
-            text-align: center;
-            padding: 1px auto;
-        }
-        input[type="text"],
-        input[type="tel"],
-        input[type="date"],
-        input[type="password"],
-        textarea {
-            width: 40px;
-            height: 15px;
-            padding: 10px auto;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        input[type="observacao"],
-        textarea {
-            width: 470px;
-            height: 65px;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+                
         }
 
         input[type="submit"] {
