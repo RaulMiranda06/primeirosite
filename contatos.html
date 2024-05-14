@@ -12,6 +12,8 @@
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="js/main.js"></script>
+		
 		
 		<style>
 			body{
@@ -80,14 +82,14 @@
 		</div>	
 		
 		
-		<div class="contato">
-			<form action="#" method="GET">
+		<div class="contato" >
+			<form action="#" onsubmit=" altert_login()" method="POST">
 				<label for="nome">Nome</label><br>
 				<input type="nome" id="nome" name="nome" required minlength="3" maxlength="50" placeholder="Digite seu nome"><br>
 				<br>
 
 				<label for="email">E-mail</label><br>
-				<input type="email" id="email" name="email" required placeholder="Digite seu e-mail"> <br>
+				<input type="email" id="email" name="email"  placeholder="Digite seu e-mail"> <br>
 				<br>
 				
 				<label for="observacoes">Assunto</label><br>
@@ -98,6 +100,19 @@
 				</form>			
 		</div>	
 		
+		<footer>				
+				<p>Horario de Atendimento (Segunda a Sexta das 09h às 17h) Entre em contato (31) 7070-7070</p>
+					<nav>
+						<ul>
+							<li><a href="#">Termos de uso</a></li>
+							<li><a href="#">Política de privacidade</a></li>
+							<li><a href="#">Sobre nós</a></li>
+						</ul>
+					</nav>
+					<p>&copy; 2024 AdventureLAND. Todos os direitos reservados.</p>
+		</footer>
+
+
 		<script>
 			$(document).ready(function(){
 			// Captura o clique no botão de alternância de menu

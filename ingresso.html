@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> ingresso </title> 
+		<link rel="shortcut icon" href="images/adventure..jpg" type="image/x-icon">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <style>
+			body{
+                background-color: hsl(230, 50%, 95%);
+                font-family: Arial, sans-serif;
+            }
+
+		</style>
+
+    </head>
+    <body>
+        <header>
+			<button class="menu-toggle">&#9776;</button>	
+			<nav>
+				<ul>
+					<li> <a href="#home">home</a></li>
+					<li> <a href="quem_somos.html">Quem Somos</a></li>
+					<li> <a href="valores.html"> Valores </a> </li>
+					<li> <a href="ingresso.html"> Ingresso </a> </li>
+					<li> <a href="contatos.html">Contatos</a></li>
+					<li> <a href="login.html"> Login  </a> </li>
+				</ul>
+			</nav>
+		</header>	
+
+		<br>
+        <br>
+        <br>
+
+        <center>
+                <h2 style="color:purple;">
+                        AdventureLAND
+                </h2>
+        </center>	
+
+
+            <div class="ingresso">
+                <center> <h2> Ingressos </h2> </center>
+                <form action="#" method="get">
+                    <label for="nome">Nome:</label>
+                    <input type="text-ingresso" id="nome" name="nome" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="text-ingresso" id="email" name="email" required>
+            
+                    <label for="quantidade">Quantidade de Ingressos:</label>
+                    <input type="number" id="quantidade" name="quantidade" min="1" required>
+            
+                    <label for="tipo_ingresso">Tipo de Ingresso:</label>
+                    <select id="tipo_ingresso" name="tipo_ingresso" required>
+                        <option value="">Selecione o Tipo</option>
+                        <option value="normal">Normal</option>
+                        <option value="VIP">VIP</option>
+                    </select>
+            
+                    <input type="ingresso" value="Comprar Ingressos">
+                </form>
+        
+                <br>
+                <br>
+        
+                <footer>				
+                    <p>Horario de Atendimento (Segunda a Sexta das 09h às 17h) Entre em contato (31) 7070-7070</p>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Termos de uso</a></li>
+                                <li><a href="#">Política de privacidade</a></li>
+                                <li><a href="#">Sobre nós</a></li>
+                            </ul>
+                        </nav>
+                        <p>&copy; 2024 AdventureLAND. Todos os direitos reservados.</p>
+                </footer>
+    
+    <script>
+        $(document).ready(function(){
+        // Captura o clique no botão de alternância de menu
+            $('.menu-toggle').click(function(){
+            // Alterna a visibilidade do menu
+            $('nav ul').slideToggle();
+        });
+            
+        // Esconde o menu ao redimensionar a janela para desktop
+        $(window).resize(function(){
+            if($(window).width() > 767) {
+            $('nav ul').removeAttr('style');
+            }
+            });
+        });		
+    </script>
+    
+    </body>
+</html>
